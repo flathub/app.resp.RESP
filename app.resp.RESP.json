@@ -10,6 +10,7 @@
         "--socket=wayland",
         "--share=network",
         "--filesystem=~/.rdm:create",
+        "--fileystem=~/.ssh:ro",
         "--device=dri"
     ],
     "modules": [
