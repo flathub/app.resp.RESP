@@ -63,13 +63,13 @@
             "name": "python3-rdbtools",
             "buildsystem": "simple",
             "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"rdbtools\" --no-build-isolation"
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"resp_rdbtools-0.1.15.tar.gz\" --no-build-isolation"
             ],
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/dd/e5/eebb748863d74b7f9d433e359b874d97e830e9d1b3e3d876b91b5cba6b9d/rdbtools-0.1.15.tar.gz",
-                    "sha256": "689e57e42f43bdc73ea4e893d9676819980d17968696826b69fbd951f59772de"
+                    "url": "https://github.com/uglide/redis-rdb-tools/archive/refs/tags/resp_rdbtools-0.1.15.tar.gz",
+                    "sha256": "03cd7bc36fa0e1d1490780ed1485a861725131d704e0c59b1fcb9802ba41fd77"
                 },
                 {
                     "type": "file",
