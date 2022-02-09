@@ -10,7 +10,7 @@
         "--socket=wayland",
         "--share=network",
         "--filesystem=~/.rdm:create",
-        "--fileystem=~/.ssh:ro",
+        "--filesystem=~/.ssh:ro",
         "--device=dri"
     ],
     "modules": [
@@ -63,7 +63,7 @@
                     "url": "https://rdm-dev.nyc3.digitaloceanspaces.com/snap/deps.zip?v3",
                     "dest-filename": "deps.zip",
                     "dest": "./3rdparty/qredisclient",
-                    "sha256": "9da3f18cb064e553cfe98377e871cf4425f9b610cadbbc241665b77a097007a2"
+                    "sha256": "6d5e810d85aab8ea53ae33e97894f2f490bb3a6ed5a03dd39aed44a1c45236f8"
                 }
             ]
         }
