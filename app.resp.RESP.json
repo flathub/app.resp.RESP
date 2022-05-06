@@ -60,7 +60,7 @@
                 },
                 {
                     "type": "archive",
-                    "url": "https://rdm-dev.nyc3.digitaloceanspaces.com/snap/deps.zip?v3",
+                    "url": "https://rdm-dev.nyc3.digitaloceanspaces.com/snap/deps.zip?v4",
                     "dest-filename": "deps.zip",
                     "dest": "./3rdparty/qredisclient",
                     "sha256": "6d5e810d85aab8ea53ae33e97894f2f490bb3a6ed5a03dd39aed44a1c45236f8"
