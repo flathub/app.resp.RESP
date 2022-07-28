@@ -51,19 +51,19 @@
                 {
                     "type": "git",
                     "url": "https://github.com/uglide/RedisDesktopManager",
-                    "commit": "1092fb74182898d9d23ebb847ba406f30c06bb25",
+                    "commit": "9a1c925e7708ad5b11eb6631de8440067543df09",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
                     },
-                    "tag": "2022.4.1"
+                    "tag": "2022.4.2"
                 },
                 {
                     "type": "archive",
-                    "url": "https://rdm-dev.nyc3.digitaloceanspaces.com/snap/deps.zip?v4",
+                    "url": "https://rdm-dev.nyc3.digitaloceanspaces.com/snap/deps.zip?v6",
                     "dest-filename": "deps.zip",
                     "dest": "./3rdparty/qredisclient",
-                    "sha256": "99b3b3f16d617860c933a47a04b75c2ce0c857f255dd5a271cb3ccaaf6c102c5"
+                    "sha256": "cdec901628f9bd38ef15344d06c58996e01951f35949f688b8670e176eb4ee5a"
                 }
             ]
         }
