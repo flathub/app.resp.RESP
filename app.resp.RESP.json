@@ -43,7 +43,7 @@
                 "pushd ./3rdparty/brotli && cmake . && make -j $FLATPAK_BUILDER_N_JOBS && ls -ahl && popd",
                 "pushd ./src && lrelease resp.pro && qmake LIBS+=-L/app/lib VERSION=\"$(git describe --abbrev=0 --tags|echo '2022')+$(git rev-parse --short HEAD)\" && make -j $FLATPAK_BUILDER_N_JOBS && popd",
                 "cp ./bin/linux/release/resp $FLATPAK_DEST/bin",
-                "install -Dm644 ./src/resources/images/resp.png /app/share/icons/hicolor/scalable/apps/app.resp.RESP.png",
+                "install -Dm644 ./src/resources/images/resp_m.png /app/share/icons/hicolor/scalable/apps/app.resp.RESP.png",
                 "install -Dm644 ./src/resources/flatpak/app.resp.RESP.metainfo.xml -t /app/share/metainfo",
                 "install -Dm644 ./src/resources/flatpak/app.resp.RESP.desktop -t /app/share/applications"
             ],
@@ -51,7 +51,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/uglide/RedisDesktopManager",
-                    "commit": "9a1c925e7708ad5b11eb6631de8440067543df09",
+                    "commit": "af3aeec8fc2a7cd0872d9bd1b5c34e4b009fcadb",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
