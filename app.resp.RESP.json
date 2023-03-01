@@ -56,7 +56,7 @@
                         "type": "git",
                         "tag-pattern": "^([\\d.]+)$"
                     },
-                    "tag": "2022.5"
+                    "tag": "2022.5.1"
                 },
                 {
                     "type": "archive",
