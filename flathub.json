@@ -1,4 +1,6 @@
 {
   "automerge-flathubbot-prs": true,
-  "only-arches": ["x86_64"]
+  "only-arches": ["x86_64"],
+  "end-of-life": "RESP.app features were added to com.redis.RedisInsight",
+  "end-of-life-rebase": "com.redis.RedisInsight"
 }
